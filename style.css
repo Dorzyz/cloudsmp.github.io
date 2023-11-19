@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Noto+Serif:wght@500&family=Raleway:wght@400;500;600;700&display=swap');
+
+:root {
+--rf-brand: #fb8d19;
+--rf-blue: #00FFFF;
+--rf-green: #7FFF00;
+--rf-red: #DC143C;
+--rf-brand-rgb: 248, 54, 145;
+--rf-dark: #212237;
+--rf-body: #989898;
+--f-main: "raleway" , sanz-serif;
+--transition: all .6s cubic-bezier(.165, .85, .44, 1); 
+--shadow: 0px, 15px, 30px, rgba(0,0,0,0. 1);
+}
+
+body {
+  font-family: var(--f-main);
+  color: var(--rf-body);
+  line-height: 1.8;
+}
+
+h1, .h1 h2, .h2 h3, .h3 h4, .h4 h5, .h5 h6, .h6 {
+  font-weight: 700;
+  color: var(--rf-dark);
+  font-family: var(--f-main);
+}
+
+.text-brand {
+  color: var(--rf-brand);
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.but {
+  background-color: var(--rf-brand);
+}
+
+#home {
+  background-image: url(fc.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-brand {
+  background-color: var(--rf-blue);
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.btn-what {
+  background-color: var(--rf-body);
+}
+
+.text-youred {
+  color: var(--rf-red);
+}
+
+.section-title {
+  max-width: 550px;
+  margin: 0 auto 60px auto;
+}
+
+.section-title .line {
+  width: 60px;
+  height: 2px;
+  background-color: var(--rf-brand);
+  display: inline-block;
+}
+
+.about-icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--rf-brand);
+  color: white;
+  font-size: 27px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-icon1 {
+  width: 60px;
+  height: 60px;
+  background-color: var(--rf-brand);
+  color: white;
+  font-size: 27px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-icon2 {
+  width: 60px;
+  height: 60px;
+  background-color: var(--rf-brand);
+  color: white;
+  font-size: 27px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-p1 {
+  color: var(--rf-dark);
+}
